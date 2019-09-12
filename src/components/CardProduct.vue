@@ -18,7 +18,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  
+};
 </script>
 
 <style scoped>
@@ -34,7 +36,7 @@ export default {};
 }
 
 .card-img {
-  height: 350px !important;
+  height: 300px !important;
   overflow: auto;
 }
 
