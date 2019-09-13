@@ -7,7 +7,7 @@
             {{ card_categorie_data.name }}
           </h3>
           <p class="sub-title-description">
-            12 Entradas
+            12 Entrada
           </p>
         </div>
         <img src="https://images.pexels.com/photos/7114/laptop-mobile.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
