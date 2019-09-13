@@ -4,8 +4,8 @@
         <div class="m-3">
             <SearchInput></SearchInput>
         </div><!-- -->
-        <div class="row container">
-            <div class="pt-5 col-md-4 col-card card-style col-12" v-for="categoryComp in categories_data" :key="categoryComp.id">
+        <div class="row">
+            <div class="pt-5 col-md-3" v-for="categoryComp in categories_data" :key="categoryComp.id">
                 <CardCategory :card_categorie_data="categoryComp"></CardCategory>
             </div>
         </div>
