@@ -1,25 +1,23 @@
 <template>
-  <div class="col-md-4 col-card card-style col-12">
     <div class="card">
       <div class="card-img">
-        <img src="/img/category-page.png" alt="..." />
-      </div>
+        <img :src= "card_product_data.image" alt="..." />
+      </div> <!-- /img/category-page.png -->
       <div class="card-body d-flex flex-column justify-content-between">
         <div class="p-3">
-          <h2 class="card-title">Flow Microsoft</h2>
-          <p class="card-text">Automate task and processes by integrating your favorite apps</p>
+          <h2 class="card-title">{{ card_product_data.name }}</h2>
+          <p class="card-text">{{ card_product_data.description }}</p>
         </div>
         <div>
-          <a href="#" class="btn btn-transparent btn-block">Visite site</a>
+          <router-link :to="'/test/'+card_product_data.uuid" class="btn btn-transparent btn-block">Visite site</router-link>
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  
+  props : [ 'card_product_data' ]
 };
 </script>
 

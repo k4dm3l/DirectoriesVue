@@ -406,7 +406,7 @@ ul li:nth-child(7) {
     }
 
     div.card-styles{
-        width: calc((100% / 4) - 15px);
+        width: calc((100%) - 15px);
         height: 200px;
     }
 
