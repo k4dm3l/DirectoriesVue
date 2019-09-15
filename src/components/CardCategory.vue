@@ -1,5 +1,5 @@
 <template>
-    <router-link :to="'/test'">
+    <router-link :to="'/products-categorie/'+card_categorie_data.uuid">
     <div class="card card-styles">
         <div class="card-description d-flex justify-content-center align-items-center flex-wrap ">
           <i class="fab fa-js-square icon-style "></i>

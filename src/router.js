@@ -23,7 +23,7 @@ export default new Router({
       component: Categoires
     },
     {
-      path: '/product-categories/:uuid',
+      path: '/products-categorie/:uuid',
       name: 'product_categories',
       component: ProductsCategories
     },

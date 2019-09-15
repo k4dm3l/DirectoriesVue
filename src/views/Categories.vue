@@ -38,7 +38,6 @@
 
                 axios.get(endPointCategories)
                     .then(response => {
-                        console.log(response.data);
                         this.categories_data = response.data.categories;
                     })
                     .catch(err => {
