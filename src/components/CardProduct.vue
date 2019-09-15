@@ -9,7 +9,7 @@
           <p class="card-text">{{ card_product_data.description }}</p>
         </div>
         <div>
-          <router-link :to="'/test/'+card_product_data.uuid" class="btn btn-transparent btn-block">Visite site</router-link>
+          <router-link :to="'/product/'+card_product_data.uuid" class="btn btn-transparent btn-block">Visite site</router-link>
         </div>
       </div>
     </div>
