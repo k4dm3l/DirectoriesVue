@@ -39,7 +39,7 @@
 export default {
     data(){
         return {
-            urlAPI: 'http://fundamentos.academlo.com/api/v1',
+            urlAPI: 'https://fundamentos.academlo.com/api/v1',
             directorieUUID: '5c82982e-b63e-4280-8287-4eba0e99716a',
             titleProduct: '',
             descProduct: '',
